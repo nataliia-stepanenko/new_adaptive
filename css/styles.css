@@ -126,7 +126,7 @@ h1 {
 
 .form textarea {
 	resize: none;
-	flex-basis: 732px;
+	width: 732px;
 	height: 60px;
 	border: none;
 	font-family: 'Montserrat', sans-serif;
@@ -147,8 +147,8 @@ h1 {
 	border-bottom: 1px solid #154f30;
 }
 
-.form button {
-	width: 200px;
+.form input {
+	min-width: 200px;
 	height: 60px;
 	color: #fff;
 	background: #000;
@@ -160,7 +160,7 @@ h1 {
 	cursor: pointer;
 }
 
-.form button:hover {
+.form input:hover {
 	background: #154f30;
 }
 /*____________________________________________________*/
@@ -458,7 +458,7 @@ h1 {
 		border: 2px solid #154f30;
 	}
 
-	.form button {
+	.form input {
 		width: 100%;
 		height: 60px;
 		font-size: 24px;
